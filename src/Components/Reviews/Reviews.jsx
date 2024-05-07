@@ -1,6 +1,5 @@
 import {useEffect, useState} from "react";
 import Review from "./Review/Review";
-import axios from "axios";
 import "./Reviews.css";
 
 const Reviews = (props) => {
