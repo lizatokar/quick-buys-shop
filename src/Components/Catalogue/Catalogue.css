@@ -1,0 +1,32 @@
+.catalogue {
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.catalogue .catalogueContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.catalogue .catalogueContainer .loading {
+    text-align: center;
+    margin: 43px 0 800px 0;
+}
+
+.catalogue .catalogueContainer .notFound {
+    margin: 40px 0 800px 0;
+}
+
+.catalogue .selectWithPrice,
+.catalogue .selectWithCategory {
+    border: 1px solid #090909;
+    border-radius: 23px;
+    font-size: 15px;
+    text-align: center;
+    width: 150px;
+}
+
+.catalogue h4 {
+    margin: 15px 0 8px 0;
+}

@@ -1,0 +1,83 @@
+main .main {
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main .main .aboutUs {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main .main .aboutUs,
+main .main .monthBestItems,
+main .main .yearBestItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main .main .monthBestItems .loading,
+main .main .yearBestItems .loading {
+    text-align: center;
+    margin: 50px 0 200px 0;
+}
+
+main .main h1,
+main .main h2 {
+    text-transform: uppercase;
+    color: rgb(19, 9, 46);
+    text-align: center;
+}
+
+main .main h1 {
+    letter-spacing: 10px;
+    margin: 100px 0 50px 0;
+}
+
+main .main h2 {
+    letter-spacing: 30px;
+    margin: 120px 0 100px 0;
+    font-size: 30px;
+}
+
+main .main h2:first-of-type {
+    letter-spacing: 10px;
+}
+
+main .main p {
+    font-size: 18px;
+}
+
+main .main .monthBestItems,
+main .main .yearBestItems {
+    margin-bottom: 150px;
+}
+
+main .main .four-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+main .main .four-buttons button {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    width: 20%;
+    padding: 20px;
+    background-color: rgb(104, 174, 212);
+    border: 1px solid rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main .main .buttons-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+main .main .buttons-content .images {
+    width: 25%;
+}

@@ -1,0 +1,7 @@
+.contacts {
+    padding: 70px 0 0 55px;
+}
+
+.contacts div:last-child {
+    margin-bottom: 800px;
+}

@@ -1,0 +1,80 @@
+.containerProduct .product {
+    padding: 70px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.containerProduct .product .description {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.containerProduct .product .description .buttons .likeButton,
+.containerProduct .product .description .buttons .dislikeButton {
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.containerProduct .product .description .buttons .likeButton {
+    background-color: #6bd36b;
+    margin-right: 15px;
+}
+
+.containerProduct .product .description .buttons .dislikeButton {
+    background-color: #d55f5f;
+}
+
+.containerProduct .product .productImageContainer {
+    width: 25%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerProduct .product .productImageContainer img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.containerProduct .loading {
+    text-align: center;
+    margin: 135px 0 800px 0;
+}
+
+.containerProduct .backToCatalogue {
+    margin: 30px 0 0 30px;
+    color: #fff;
+    padding: 10px 25px;
+    background-color: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: 2px 19px 31px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+    cursor: pointer;
+}
+
+.containerProduct .backToCatalogue:hover,
+.containerProduct .backToCatalogue:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+.containerProduct .backToCatalogue:active {
+    opacity: .5;
+}
