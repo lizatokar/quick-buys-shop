@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/quick-buys-shop/static/css/main.408980b1.css",
+    "main.js": "/quick-buys-shop/static/js/main.e2fdc616.js",
+    "static/media/support.jpg": "/quick-buys-shop/static/media/support.94d5cdc71f476e59cd20.jpg",
+    "static/media/delivery.jpg": "/quick-buys-shop/static/media/delivery.13b50d85f44c49106570.jpg",
+    "static/media/guarantee.jpg": "/quick-buys-shop/static/media/guarantee.a0fb15cdbffb031544f3.jpg",
+    "static/media/payment.png": "/quick-buys-shop/static/media/payment.b4d21c040dfcc9448ed0.png",
+    "static/media/logo.png": "/quick-buys-shop/static/media/logo.0f56d6866d433067460f.png",
+    "index.html": "/quick-buys-shop/index.html",
+    "main.408980b1.css.map": "/quick-buys-shop/static/css/main.408980b1.css.map",
+    "main.e2fdc616.js.map": "/quick-buys-shop/static/js/main.e2fdc616.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.408980b1.css",
+    "static/js/main.e2fdc616.js"
+  ]
+}
