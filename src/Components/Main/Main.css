@@ -71,6 +71,10 @@ main .main .four-buttons button {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+main .main .four-buttons button:hover {
+    background-color: #9eacbe;
+}
+
 main .main .buttons-content {
     display: flex;
     justify-content: space-between;
