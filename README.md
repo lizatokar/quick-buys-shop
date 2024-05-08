@@ -1,4 +1,4 @@
-This is Shop App.
+This is Quick Buys Shop App.
 
 Project Description:
 
