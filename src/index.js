@@ -8,7 +8,7 @@ import buttons from "./Data/buttons";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <BrowserRouter>
+    <BrowserRouter basename='/quick-buys-shop'>
         <App data={data} buttons={buttons}/>
     </BrowserRouter>
 );
